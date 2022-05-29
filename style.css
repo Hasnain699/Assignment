@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(248, 234, 219);
+}
+.container{
+    background-color: #f2f2f2;
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   margin-left: 80px;
+
+}
+
+.nav{
+    background-color: #f2f2f2;
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    color: white;
+    background-color: rgb(189, 4, 189);
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    width: 100%;
+    height: 80%;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#user,#msg,#sqr,#glasses,#bag {
+    padding-top: 40px;    
+}
+.image{
+    width: 30%;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.content{
+    margin-top: 80px;
+    background-color: #f2f2f2;
+    width: 55%;
+    height: 80%;
+}
+.largebox{
+    margin-top: 50px;
+    display: flex;
+    height: 80%;
+}
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.box2{
+    margin-left: 20px;
+    width: 50%;
+}
+.box3{
+    margin-left: 20px;
+    width: 50%;
+}
+.upper {
+    color: rgb(189, 4, 189);
+}
+.lower {
+    color: rgb(189, 4, 189);
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+h1 {
+    margin-left:20px;
+}
+.text {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+#p1 {
+    margin-left: 40px;
+}
+
